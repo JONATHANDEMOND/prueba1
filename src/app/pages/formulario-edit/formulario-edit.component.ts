@@ -3,6 +3,7 @@ import { FormularioComponent } from '../../components/formulario/formulario.comp
 import { VehiculosService } from '../../services/vehiculos.service';
 import { FormsModule } from '@angular/forms';
 import { ActivatedRoute } from '@angular/router';
+import { subscribe } from 'diagnostics_channel';
 
 
 @Component({
@@ -14,7 +15,7 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class FormularioEditComponent {
  
-
+motos:any
 id:any
 placa:any;
 anio:any;
@@ -24,22 +25,24 @@ descripcion:any;
 servicio=inject(VehiculosService)
 
 
+ngOnInit(): void {
+  this.servicio.getDatosVer(this.id).subscribe(p=>{
+    this.motos=p;
+  })
+ 
+}
+  
+
+
+
 
 
 editar(datos:any){
-
+  
   this.servicio.putMotosEdit(datos.value).subscribe()
 
- 
-}
-
-guardar( datos: any){
-    
-  this.servicio.postMoto(datos.value).subscribe()
-
-  
-  window.location.reload()
 
 }
+
 
 }

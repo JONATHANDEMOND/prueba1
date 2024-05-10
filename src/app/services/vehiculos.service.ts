@@ -18,6 +18,9 @@ getDatos(id:any):Observable<any>{
   return this.http.get(`${this.API_VEHICULOS}/${id}`)
 }
 
+getDatosVer(id:any):Observable<any>{
+  return this.http.get(`${this.API_VEHICULOS}/${id}`)
+}
 
 //////////////////eliminar y editar//////////////
 

@@ -25,14 +25,6 @@
       "descripcion": "Una combinación perfecta de tecnología y estilo, esta motocicleta es la compañera ideal para los aventureros."
     },
     {
-      "id": 4,
-      "placa": "JKL012",
-      "anio": 2021,
-      "imagen": "../../assets/images/moto4.jpg",
-      "precio": 5500,
-      "descripcion": "Descubre el rendimiento excepcional y el diseño vanguardista con nuestra motocicleta más vendida del año."
-    },
-    {
       "id": 5,
       "placa": "MNO345",
       "anio": 2017,
