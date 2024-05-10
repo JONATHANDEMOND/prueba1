@@ -1,0 +1,43 @@
+{
+  "motocicletas": [
+    {
+      "id":1,
+      "placa": "ABC123",
+      "anio": 2020,
+      "imagen": "../../assets/images/moto1.jpg",
+      "precio": 5000,
+      "descripcion": "Explora la ciudad con estilo con esta motocicleta deportiva de alto rendimiento, perfecta para el entusiasta urbano."
+    },
+    {
+  "id":2,
+      "placa": "DEF456",
+      "anio": 2018,
+      "imagen": "../../assets/images/moto2.jpg",
+      "precio": 4500,
+      "descripcion": "Ideal para viajes largos, esta motocicleta ofrece comodidad y una excelente eficiencia de combustible."
+    },
+    {
+"id":3,      "placa": "GHI789",
+      "anio": 2019,
+      "imagen": "../../assets/images/moto3.jpg",
+      "precio": 4800,
+      "descripcion": "Una combinación perfecta de tecnología y estilo, esta motocicleta es la compañera ideal para los aventureros."
+    },
+    {
+"id":4,
+      "placa": "JKL012",
+      "anio": 2021,
+      "imagen": "../../assets/images/moto4.jpg",
+      "precio": 5500,
+      "descripcion": "Descubre el rendimiento excepcional y el diseño vanguardista con nuestra motocicleta más vendida del año."
+    },
+    {
+"id":5,
+      "placa": "MNO345",
+      "anio": 2017,
+      "imagen": "../../assets/images/moto5.jpg",
+      "precio": 4000,
+      "descripcion": "Perfecta para principiantes, esta motocicleta combina seguridad y manejo fácil a un precio accesible."
+    }
+  ]
+}

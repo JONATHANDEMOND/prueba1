@@ -1,0 +1,20 @@
+
+<div class="card mx-auto" style="width: 280px;">
+    <img src="{{motos.imagen}}" class="card-img-top" alt="Chicago Skyscrapers"/>
+    <div class="card-body">
+      <h5 class="card-title">{{motos.placa}}</h5>
+      <p class="card-text">
+        <label style="color: rgb(238, 12, 50);">Nombre:</label> {{motos.anio}}</p>
+    </div>
+    <ul class="list-group list-group-light list-group-small">
+      <li class="list-group-item px-4">
+        <label style="color: blue;">Precio:</label> {{motos.precio}}</li>
+     
+      <li class="list-group-item px-4">
+        <label style="color: blue;">Descripcion:</label> {{motos.descripcion}}</li>
+    </ul>
+    <div class="card-body">
+      <button [routerLink]="['/vehiculos']" class="btn btn-success">Regresar</button>
+      
+    </div>
+  </div>

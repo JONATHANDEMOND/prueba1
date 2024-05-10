@@ -1,0 +1,22 @@
+<div class="row">
+    <h1>GALERIA DE MOTOS</h1>
+    @for (item of motos; track item) {
+    <div class="col-md-3">
+      <div class="thumbnail">
+        <a href="{{item.imagen}}">
+          <img src="{{item.imagen}}" alt="Lights" height="150">
+        </a>
+        <div class="caption">
+            <p>{{item.placa}} {{item.anio}} {{item.precio}}
+               
+            </p>
+
+          </div>
+          <button class="btn btn-primary" [routerLink]="['/vehiculos',item.id]">Detalles</button>
+      </div>
+    </div>
+    
+
+
+}
+  </div>

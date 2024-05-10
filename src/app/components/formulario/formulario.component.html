@@ -1,0 +1,17 @@
+<form (ngSubmit)="guardar( formulario )"  #formulario = "ngForm">
+    <label >Ingresar ID</label>
+    <input type="text" name="id" [(ngModel)]="id"  class="form-control">
+
+    <label >Ingrese Nombre</label>
+    <input type="text" name="placa" [(ngModel)]="placa"  class="form-control">
+
+    <label >Ingrese edad</label>
+    <input type="number" name="anio" [(ngModel)]="anio" class="form-control" >
+
+    <label >Seleccione el Género</label >
+        <input type="number" name="precio" [(ngModel)]="precio" class="form-control" >
+  
+      
+    <br>
+    <button type="submit" class="btn btn-primary">Guardar</button>
+</form>
