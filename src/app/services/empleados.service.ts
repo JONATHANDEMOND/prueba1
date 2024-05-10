@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 export class EmpleadosService {
 
   constructor(private http:HttpClient) { }
-private API_EMPELADOS='https://jritsqmet.github.io/web-api/crash.json'
+private API_EMPELADOS='https://jritsqmet.github.io/web-api/crash'
 
 getEmpelado():Observable<any>{
   return this.http.get(this.API_EMPELADOS)
